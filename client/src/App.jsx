@@ -57,10 +57,6 @@ function App() {
     todos.splice(index, 1);
     setTodos([...todos]);
 
-    // setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
-
-    // getData();
-    // console.log(todos);
   };
 
   return (
